@@ -24,7 +24,12 @@
     color: var(--ink);
     min-height: 100vh;
   }
-
+ .avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
   header {
     background: var(--ink);
     color: white;
