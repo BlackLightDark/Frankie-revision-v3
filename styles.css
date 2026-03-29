@@ -24,12 +24,7 @@
     color: var(--ink);
     min-height: 100vh;
   }
- .avatar {
-      width: 56px;
-      height: 56px;
-      border-radius: 50%;
-      object-fit: cover;
-  }
+ 
   header {
     background: var(--ink);
     color: white;
@@ -39,6 +34,13 @@
     gap: 20px;
     flex-wrap: wrap;
   }
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;   
+    }
 
   header h1 {
     font-family: 'DM Serif Display', serif;
