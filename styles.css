@@ -30,17 +30,28 @@
     color: white;
     padding: 28px 32px 24px;
     display: flex;
+    justify-content: space-between;
     align-items: flex-end;
     gap: 20px;
     flex-wrap: wrap;
   }
-.avatar {
-    width: 44px;
-    height: 44px;
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 0;
+  }
+
+  .avatar {
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid white;   
-    }
+    display: block;
+    flex-shrink: 0;
+    border: 2px solid rgba(255,255,255,0.3);
+  }
 
   header h1 {
     font-family: 'DM Serif Display', serif;
@@ -477,22 +488,6 @@
   }
 
   .today-marker .day-date { color: var(--highlight); }
-
-
-  .avatar-badge {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    border: 3px solid rgba(255,255,255,0.3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, var(--highlight), #f29f67);
-    color: var(--ink);
-    font-family: 'DM Serif Display', serif;
-    font-size: 1.6rem;
-    flex-shrink: 0;
-  }
 
   .dashboard-grid {
     display: grid;
